@@ -1,23 +1,31 @@
-# Zomato Clone
+# 🍔 Zomato Clone (Frontend)
 
-A simple clone of the Zomato food delivery platform built with HTML, CSS, and JavaScript.
+A simple **Zomato Clone** built using **HTML, CSS, and JavaScript**.  
+This project replicates the basic UI and layout of Zomato, including restaurant listings, collections, and a search interface.
 
-## Features
+---
 
-- Search for restaurants
-- View popular restaurants with images
-- Responsive design
+## 🔥 Features
 
-## Technologies Used
+- 🏠 Clean and modern homepage layout  
+- 🔍 Search bar for restaurants, cuisines, or dishes  
+- 📍 Location input field  
+- 🍕 Popular restaurants section  
+- 🗂️ Curated food collections  
+- 📱 Fully responsive design  
+- 🎨 Google Fonts (Roboto) for modern typography  
 
-- HTML
-- CSS
-- JavaScript
+---
 
-## How to Run
+## 🛠️ Technologies Used
 
-Open `index.html` in your web browser to view the site.
+- **HTML5** – Page structure  
+- **CSS3** – Styling & layout  
+- **JavaScript** – Basic interactivity  
+- **Google Fonts** – Typography  
+- **Unsplash Images** – Food images  
 
-## Images
+---
 
-Images are sourced from Unsplash for demonstration purposes.
+## 📂 Project Structure
+
