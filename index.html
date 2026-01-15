@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Zomato</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Gold</a></li>
+                    <li><a href="#">Pro</a></li>
+                </ul>
+            </nav>
+            <div class="search-location">
+                <input type="text" id="location" placeholder="Enter your delivery address">
+                <input type="text" id="search" placeholder="Search for restaurants, cuisines, or dishes">
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Order food online from your favourite local restaurants.</h2>
+            <p>Freshly made food delivered to your door.</p>
+        </div>
+    </section>
+    <section class="collections">
+        <div class="container">
+            <h2>Collections</h2>
+            <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</p>
+            <div class="collection-grid">
+                <div class="collection-card">
+                    <img src="https://source.unsplash.com/featured/?foodcollection1" alt="Trending This Week">
+                    <h3>Trending This Week</h3>
+                </div>
+                <div class="collection-card">
+                    <img src="https://source.unsplash.com/featured/?foodcollection2" alt="Best of Delhi NCR">
+                    <h3>Best of Delhi NCR</h3>
+                </div>
+                <div class="collection-card">
+                    <img src="https://source.unsplash.com/featured/?foodcollection3" alt="Great Food, No Bull">
+                    <h3>Great Food, No Bull</h3>
+                </div>
+                <div class="collection-card">
+                    <img src="https://source.unsplash.com/featured/?foodcollection4" alt="Pocket Friendly">
+                    <h3>Pocket Friendly</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="restaurants">
+        <div class="container">
+            <h2>Popular Restaurants</h2>
+            <div id="restaurants" class="restaurant-grid">
+                <div class="restaurant-card" data-name="Pizza Palace">
+                    <img src="https://source.unsplash.com/featured/?pizza" alt="Pizza Palace">
+                    <h3>Pizza Palace</h3>
+                    <p>Italian Cuisine</p>
+                    <p>Rating: 4.5</p>
+                </div>
+                <div class="restaurant-card" data-name="Burger Joint">
+                    <img src="https://source.unsplash.com/featured/?burger" alt="Burger Joint">
+                    <h3>Burger Joint</h3>
+                    <p>American Cuisine</p>
+                    <p>Rating: 4.2</p>
+                </div>
+                <div class="restaurant-card" data-name="Sushi Spot">
+                    <img src="https://source.unsplash.com/featured/?sushi" alt="Sushi Spot">
+                    <h3>Sushi Spot</h3>
+                    <p>Japanese Cuisine</p>
+                    <p>Rating: 4.7</p>
+                </div>
+                <div class="restaurant-card" data-name="Taco Town">
+                    <img src="https://source.unsplash.com/featured/?taco" alt="Taco Town">
+                    <h3>Taco Town</h3>
+                    <p>Mexican Cuisine</p>
+                    <p>Rating: 4.3</p>
+                </div>
+                <div class="restaurant-card" data-name="Pasta Place">
+                    <img src="https://source.unsplash.com/featured/?pasta" alt="Pasta Place">
+                    <h3>Pasta Place</h3>
+                    <p>Italian Cuisine</p>
+                    <p>Rating: 4.6</p>
+                </div>
+                <div class="restaurant-card" data-name="Fried Chicken Hub">
+                    <img src="https://source.unsplash.com/featured/?friedchicken" alt="Fried Chicken Hub">
+                    <h3>Fried Chicken Hub</h3>
+                    <p>American Cuisine</p>
+                    <p>Rating: 4.4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Zomato Clone. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
