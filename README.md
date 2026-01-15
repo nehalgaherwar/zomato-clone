@@ -29,3 +29,28 @@ This project replicates the basic UI and layout of Zomato, including restaurant 
 
 ## 📂 Project Structure
 
+zomato-clone/
+│
+├── index.html # Main HTML file
+├── styles.css # CSS styling
+├── script.js # JavaScript logic
+└── README.md # Project documentation
+
+
+---
+
+## 🚀 How to Run the Project
+
+1.  Clone this repository                      
+   ```bash                                                      
+   git clone https://github.com/your-username/zomato-clone.git                          
+```                                  
+
+2.Open the project folder                          
+
+3.cd zomato-clone                                                  
+
+
+4.Open index.html in your browser                              
+
+5.Double click the file/ use Live Server in VS Code                                                    
